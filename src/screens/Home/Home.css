@@ -1,3 +1,8 @@
+.home__container {
+  padding: 1rem 1rem;
+  background-color: #ffffff;
+}
+
 .card__container {
   display: flex;
   gap: 3rem;
