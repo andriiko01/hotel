@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5rem 1rem;
+}
+
+.card__img {
+  width: 50;
+  height: 50px;
+}
+
+.card__info {
+  text-align: right;
+}
+
+.card__count {
+  font-size: 2rem;
+}

@@ -1,7 +1,7 @@
-import { MainHeaderProps } from "./MainHeader.types";
+import { IMainHeaderProps } from "./MainHeader.types";
 import "./MainHeader.css";
 
-export const MainHeader: React.FC<MainHeaderProps> = ({ title }) => {
+export const MainHeader: React.FC<IMainHeaderProps> = ({ title }) => {
   return (
     <div className="header">
       <p className="header__title">{title}</p>

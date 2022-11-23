@@ -1,3 +1,3 @@
-export interface MainHeaderProps {
+export interface IMainHeaderProps {
   title: string;
 }
