@@ -1,19 +1,18 @@
-import { Outlet, Link } from "react-router-dom";
-
+import { Card, CardType, MainHeader } from "../../components";
 import { IHomeScreenProps } from "./Home.types";
+import "./Home.css";
+import { PageView } from "../../components/PageView/PageView";
 
 export const HomeScreen: React.FC<IHomeScreenProps> = () => {
   return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Outlet />
-    </>
+    <div>
+      <MainHeader title="Dashboard" />
+      <PageView>
+        <div className="card__container">
+          <Card preset={CardType.Room} count={0} />
+          <Card preset={CardType.Bookings} count={0} />
+        </div>
+      </PageView>
+    </div>
   );
 };
