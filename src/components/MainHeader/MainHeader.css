@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  background-color: #01a4e9;
+}
+
+.header__title {
+  color: #ffffff;
+}
+
+.header__name {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__name:hover {
+  text-decoration: underline;
+}
