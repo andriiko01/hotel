@@ -1,0 +1,14 @@
+.tab-bar {
+  display: flex;
+}
+
+.tab-bar__item {
+  padding: 0.5rem 1rem;
+
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.tab-bar__item--active {
+  background-color: #ffffff;
+}

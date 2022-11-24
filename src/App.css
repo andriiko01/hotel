@@ -2,6 +2,7 @@ a {
   text-decoration: none;
 }
 
-.App {
-  text-align: center;
+#root {
+  height: 100vh;
+  background-color: #f4f4f4;
 }
