@@ -1,12 +1,17 @@
 import { ITabItem } from "./TabBar.types";
 
+export enum TabType {
+  Dashboard = "dashboard",
+  Employees = "employees",
+}
+
 export const TABS: ReadonlyArray<ITabItem> = [
   {
-    id: "Dashpoard",
-    title: "Dashpoard",
+    id: TabType.Dashboard,
+    title: "Dashboard",
   },
   {
-    id: "Employees",
+    id: TabType.Employees,
     title: "Employees",
   },
 ];

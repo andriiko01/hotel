@@ -21,7 +21,7 @@ export const Card: React.FC<ICardProps> = ({ preset, count }) => {
       case CardType.Room:
         return {
           imagePath: IMAGES.KEY,
-          title: "Bookings",
+          title: "Room types",
           backgroundStyle: { background: "#D9EDF8" },
           navigationPath: "room-types",
         };

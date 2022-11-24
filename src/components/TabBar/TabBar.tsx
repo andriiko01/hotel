@@ -1,12 +1,12 @@
 import _ from "lodash";
 import { useEffect, useState } from "react";
 
-import { TABS } from "./TabBar.data";
+import { TABS, TabType } from "./TabBar.data";
 import { ITabBarProps, ITabItem } from "./TabBar.types";
 import "./TabBar.css";
 
 export const TabBar: React.FC<ITabBarProps> = ({ setActive }) => {
-  const [activeTab, setActiveTab] = useState<string>(TABS[0].id);
+  const [activeTab, setActiveTab] = useState(TabType.Dashboard);
 
   useEffect(() => {
     setActive(activeTab);
