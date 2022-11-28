@@ -1,8 +1,10 @@
+import { TabType } from "./TabBar.data";
+
 export interface ITabBarProps {
-  setActive: (prop: string) => void;
+  setActive: (type: TabType) => void;
 }
 
 export interface ITabItem {
-  id: string;
+  id: TabType;
   title: string;
 }

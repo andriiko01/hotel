@@ -3,10 +3,17 @@
   justify-content: space-between;
   align-items: center;
   flex: 1;
+  max-width: 500px;
 
   padding: 0.5rem 1rem;
 
   cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 3px 5px 10px #cecece;
 }
 
 .card__img {
